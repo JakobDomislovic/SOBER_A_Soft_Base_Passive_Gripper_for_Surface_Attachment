@@ -10,20 +10,10 @@ The passive soft base attaching gripper is designed for [brief description of th
 
 Here are key views of the gripper assembly:
 
-<table>
-  <tr>
-    <th align="center">Top View</th>
-    <th align="center">Side View</th>
-    <th align="center">Bottom View</th>
-  </tr>
-  <tr>
-    <td align="center">![Top View](Figures/Top view.png)</td>
-    <td align="center">![Side View](Figures/Side view.png)</td>
-    <td align="center">![Bottom View](Figures/Bottom view.png)</td>
-  </tr>
-</table>
+| Top | Side View | Bottom View |
+|----------|-----------|-------------|
+| ![Top View](Figures/Top%20view.png) | ![Side View](Figures/Side%20view.png) | ![Bottom View](Figures/Bottom%20view.png) |
 
-Additional views: [Exploded View](Figures/Exploded.png), [Assembly](Figures/Assembly.png), [Top View without UR10 Mount](Figures/Top view without UR10 mount.png).
 
 ## Repository Structure
 
