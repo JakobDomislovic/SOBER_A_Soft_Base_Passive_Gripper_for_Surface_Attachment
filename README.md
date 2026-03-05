@@ -47,6 +47,10 @@ If you use this work in your research, please cite:
 
 This work is licensed under the [MIT License](LICENSE) / [CC BY 4.0](LICENSE) / [Specify appropriate license for scientific work].
 
+## Acknowledgment
+
+This work was supported in part by the project "CBRNe HERO" funded by the European Union - NextGeneration EU under Grant NPOO.C3.2.R3-I1.04.0075. The work of doctoral student Jakob Domislovic has been supported in part by the "Young researchers' career development project–training of doctoral students" of the Croatian Science Foundation funded by the European Union from the European Social Fund.
+
 ## 📧 Contact
 
 For questions or collaborations, contact Jakob Domislovic at jakob.domislovic@fer.unizg.hr.
