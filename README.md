@@ -1,6 +1,6 @@
 # SOBER: A Soft Base Passive Gripper for Surface Attachment
 
-This repository contains the design models and figures for the SOBER gripper, as presented in the IEEE scientific article [Article Title, Year].
+This repository contains the design models and figures for the SOBER gripper, submitted to the 2026 IEEE Advanced Intelligent Mechatronics (AIM) Conference.
 
 ## Overview
 
@@ -41,7 +41,7 @@ Here are key views of the gripper assembly:
 
 If you use this work in your research, please cite:
 
-[Insert IEEE citation here, e.g., Author(s). "Title of the Article." Journal Name, vol. XX, no. YY, pp. ZZ, Year.]
+[Citation pending - submitted to 2026 IEEE Advanced Intelligent Mechatronics (AIM) Conference]
 
 ## License
 
