@@ -151,7 +151,7 @@
                 <h3 class="title is-5" style="margin-top: 0.5rem;">Parametric Design Models</h3>
                 <p class="content">Complete parametric models in Autodesk Fusion 360 format. These files allow for modification, adaptation, and detailed inspection of the design.</p>
                 <div style="margin-top: 1.5rem;">
-                  <a href="../Models/Fusion/" class="button is-fullwidth" style="background-color: #F5821F; color: white; border: none; font-weight: bold;">
+                  <a href="https://github.com/JakobDomislovic/SPLAT/tree/main/Models/Fusion" class="button is-fullwidth" style="background-color: #F5821F; color: white; border: none; font-weight: bold;">
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
@@ -168,7 +168,7 @@
                 <h3 class="title is-5" style="margin-top: 0.5rem;">3D Print Ready Models</h3>
                 <p class="content">Stereolithography files optimized for 3D printing and simulation. No Fusion 360 required. Ready for immediate fabrication.</p>
                 <div style="margin-top: 1.5rem;">
-                  <a href="../Models/STL/" class="button is-fullwidth" style="background-color: #F5821F; color: white; border: none; font-weight: bold;">
+                  <a href="https://github.com/JakobDomislovic/SPLAT/tree/main/Models/STL" class="button is-fullwidth" style="background-color: #F5821F; color: white; border: none; font-weight: bold;">
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
@@ -243,32 +243,45 @@
     </div>
   </section>
 
-  <!-- Experiments Section -->
+  <!-- Experimental Results Section -->
   <section class="section" id="experiments">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column is-full_width">
-          <h2 class="title is-3">Experiments</h2>
+        <div class="column is-full">
+          <h2 class="title is-3">Experimental results</h2>
           <hr style="background-color: #F5821F; height: 3px; margin: 1rem 0;">
   
-          <div class="columns is-variable is-6" style="margin-top: 2rem;">
-            <!-- Simulation video -->
+          <!-- Main video on top -->
+          <div class="columns is-centered" style="margin-top: 2rem;">
+            <div class="column is-four-fifths">
+              <div class="box" style="padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                <p class="heading" style="color: #F5821F; font-weight: bold; margin-bottom: 0.75rem;">LABORATORY RESPONSE
+                </p>
+                <video autoplay loop muted playsinline controls style="width: 100%; height: auto; border-radius: 8px;">
+                  <source src="./Media/Videos/aim26_lab_reponse.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Two videos side by side -->
+          <div class="columns is-variable is-6" style="margin-top: 1rem;">
             <div class="column is-half">
               <div class="box" style="padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                <p class="heading" style="color: #F5821F; font-weight: bold; margin-bottom: 0.75rem;">SIMULATION</p>
+                <p class="heading" style="color: #F5821F; font-weight: bold; margin-bottom: 0.75rem;">METAL 15°</p>
                 <video autoplay loop muted playsinline controls style="width: 100%; height: auto; border-radius: 8px;">
-                  <source src="../visualization/figures_uav_perching/attach_and_release.mp4" type="video/mp4">
+                  <source src="./Media/Videos/metal_15.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
             </div>
   
-            <!-- Laboratory video -->
             <div class="column is-half">
               <div class="box" style="padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                <p class="heading" style="color: #F5821F; font-weight: bold; margin-bottom: 0.75rem;">LABORATORY</p>
+                <p class="heading" style="color: #F5821F; font-weight: bold; margin-bottom: 0.75rem;">PLEXI 15°</p>
                 <video autoplay loop muted playsinline controls style="width: 100%; height: auto; border-radius: 8px;">
-                  <source src="../visualization/figures_uav_perching/laboratory_attach_and_release.mp4" type="video/mp4">
+                  <source src="./Media/Videos/plexi_15.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -341,11 +354,11 @@
           <div class="content has-text-centered">
             <!-- Footer Logos -->
             <div class="columns is-centered" style="margin-bottom: 1.5rem; gap: 1rem;">
-              <div class="column is-narrow" style="display: flex; align-items: center; justify-content: center;">
-                <img src="./logo/FER_logo.png" alt="FER" style="height: 50px; width: auto; opacity: 0.9;"/>
+              <div class="column is-narrow" style="display: flex; align-items: center; justify-content: center; height: 60px;">
+                <img src="./logo/FER_logo.png" alt="FER" style="max-height: 50px; width: auto; opacity: 0.9;" />
               </div>
-              <div class="column is-narrow" style="display: flex; align-items: center; justify-content: center;">
-                <img src="./logo/Larics_logo.png" alt="LARICS" style="height: 50px; width: auto; opacity: 0.9;"/>
+              <div class="column is-narrow" style="display: flex; align-items: center; justify-content: center; height: 60px;">
+                <img src="./logo/Larics_logo.png" alt="LARICS" style="max-height: 50px; width: auto; opacity: 0.9;" />
               </div>
             </div>
             <p style="margin-bottom: 1rem; color: white;">
@@ -354,7 +367,7 @@
             </p>
             <p style="font-size: 0.9rem; opacity: 0.9; color: white;">
               Laboratory for Robotics and Intelligent Control Systems (LARICS)<br>
-              <a href="https://github.com/JakobDomislovic/SOBER_A_Soft_Base_Passive_Gripper_for_Surface_Attachment" target="_blank" style="color: white; text-decoration: underline;">GitHub Repository</a>
+              <a href="https://github.com/JakobDomislovic/SPLAT" target="_blank" style="color: white; text-decoration: underline;">GitHub Repository</a>
             </p>
           </div>
         </div>
